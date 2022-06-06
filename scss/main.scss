@@ -1,0 +1,38 @@
+// utils
+@import './utils/vars';
+@import './utils/visually-hidden';
+
+
+//base styles
+
+@import './base/common';
+@import './base/container';
+@import './base/reset';
+
+//components
+
+@import './components/btn';
+@import './components/btn-filter';
+@import './components/social';
+@import './components/logo';
+@import './components/modal/modal';
+@import './components/modal/backdrop';
+@import './components/modal/close-btn-modal';
+@import './components/modal/form';
+@import './components/modal/checkbox';
+@import './components/modal/policy';
+@import './components/subscribe-form';
+
+//layouts
+@import './layouts/studio/header';
+@import './layouts/studio/hero';
+@import './layouts/studio/features';
+@import './layouts/studio/speciality';
+@import './layouts/studio/speciality';
+@import './layouts/studio/team';
+@import './layouts/studio/client';
+@import './layouts/studio/footer';
+
+
+@import './layouts/portfolio/gallery';
+

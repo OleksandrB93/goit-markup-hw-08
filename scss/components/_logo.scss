@@ -1,0 +1,25 @@
+.nav-logo {
+	display: block;
+	text-decoration: none;
+	margin-right: 90px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	font-family: "Raleway", sans-serif;
+}
+
+.nav__web {
+	color: var(--accent-color-background);
+}
+
+.nav__studio {
+	color: var(--title-text-color);
+}
+
+.nav__studio--invers {
+	color: white;
+}
