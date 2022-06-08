@@ -687,30 +687,63 @@ textarea::placeholder {
   display: flex;
 }
 
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
-.nav-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
-.nav-list__item {
-  margin-right: 50px;
+@media screen and (min-width: 1280px) {
+  .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
-.nav-list__item:last-child {
-  margin-right: 0;
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .nav-list__item {
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .nav-list__item {
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .nav-list__item:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .nav-list__item:last-child {
+    margin-right: 0;
+  }
 }
 
 .nav-list__link {
-  text-decoration: none;
-  position: relative;
   padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
@@ -735,27 +768,54 @@ textarea::placeholder {
 }
 
 /* .contacts-list */
-.contacts-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .contacts-list {
+    display: block;
+    margin-left: auto;
+  }
 }
-.contacts-list__item {
-  margin-right: 50px;
+@media screen and (min-width: 1280px) {
+  .contacts-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: auto;
+  }
 }
-.contacts-list__item:last-child {
-  margin-right: 0;
+@media screen and (min-width: 1280px) {
+  .contacts-list__item {
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .contacts-list__item:first-child {
+    margin-right: 0;
+    padding-bottom: 5px;
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts-list__item:first-child {
+    margin-right: 30;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .contacts-list__item:last-child {
+    margin-right: 0;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts-list__item:last-child {
+    margin-right: 0;
+  }
 }
 
 .contacts-list__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -765,12 +825,33 @@ textarea::placeholder {
   -webkit-transition: color var(--transition-timing) var(--transition-function);
   transition: color var(--transition-timing) var(--transition-function);
 }
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .contacts-list__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts-list__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 32px 0;
+  }
+}
 .contacts-list__link:hover, .contacts-list__link:focus {
   color: var(--focus-hover-color);
 }
 
 .contacts-list__icon {
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 /* section Hero*/
