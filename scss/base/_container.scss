@@ -1,9 +1,49 @@
-.container {
-	width: 1200px;
-	margin: 0 auto;
+.section {
+	@include mq(mobile) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	@include mq(tablet) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	@include mq(desktop) {
+		padding-top: 94px;
+		padding-bottom: 94px;
+	}
 }
 
-.section {
-	padding-top: 94px;
-	padding-bottom: 94px;
+.container {
+	// MOBILE
+	// @media screen and (min-width: 480px) {
+	// 	width: 450px;
+	// }
+
+	@include mq(mobile) {
+		width: 480px;
+	}
+
+	// TABLET
+	// @media screen and (min-width: 768px) {
+	// 	width: 738px;
+	// }
+
+	@include mq(tablet) {
+		width: 768px;
+	}
+
+	// DESKTOP
+	// @media screen and (min-width: 1200px) {
+	// 	width: 1170px;
+	// }
+
+	@include mq(desktop) {
+		width: 1200px;
+	}
+
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: 0 auto;
 }

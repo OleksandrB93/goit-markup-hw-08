@@ -1,6 +1,11 @@
 
 /* <!--Speciality--> */
 .special {
+	@include mq(desktop) {
+		display: block;
+	}
+	
+	display: none;
 	padding-bottom: 94px;
 }
 
