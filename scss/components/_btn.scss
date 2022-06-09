@@ -1,6 +1,6 @@
 .btn {
 	padding: 10px 32px;
-	
+
 	display: block;
 	margin: 0 auto;
 
@@ -19,24 +19,21 @@
 	background-color: var(--accent-color-background);
 	transition: backgrounf-color var(--transition-timing) var(--transition-function),
 		color var(--transition-timing) var(--transition-function);
-        &__icon {
-            margin-left: 10px;
-        }
-        
-        &__content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+	&__icon {
+		margin-left: 10px;
+	}
 
-        &:hover,
-        &:focus {
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-            background-color: #008cff;
-        }
+	&__content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&:hover,
+	&:focus {
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+		background-color: #008cff;
+	}
 }
-
-
-
 
 

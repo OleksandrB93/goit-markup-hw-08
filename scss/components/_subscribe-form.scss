@@ -1,4 +1,9 @@
 /* Footer-form */
+// .form {
+// 	@include mq(mobile-only) {
+// 		margin-right: 0;
+// 	}
+// }
 .footer-form {
 	@include mq(tablet-only) {
 		margin-top: 60px;
@@ -9,7 +14,6 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		display: flex;
 	}
 
 	@include mq(desktop) {
@@ -43,6 +47,7 @@
 
 	@include mq(desktop) {
 		margin-right: 20px;
+		margin-bottom: 20px;
 	}
 
 	font-size: 14px;
@@ -53,9 +58,6 @@
 }
 
 .footer-label__input {
-	// @include mq(tablet-only) {
-	// 	margin-bottom: 20px;
-	// }
 	width: 358px;
 	height: 50px;
 	padding-top: 15px;

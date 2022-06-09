@@ -19,6 +19,12 @@
 	}
 }
 
+.nav-logo--mobile {
+	@include mq(mobile-only) {
+		margin-right: 0;
+	}
+}
+
 .footer-container {
 	@include mq(tablet-only) {
 		display: flex;
@@ -79,5 +85,11 @@
 	&:hover,
 	&:focus {
 		color: var(--focus-hover-color);
+	}
+}
+
+.btn-footer {
+	@include mq(tablet-only) {
+		margin-top: 20px;
 	}
 }

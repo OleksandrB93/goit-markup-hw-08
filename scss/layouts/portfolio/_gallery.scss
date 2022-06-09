@@ -1,19 +1,29 @@
-
 .gallery {
-	padding: 94px 0px;
+	// padding: 94px 0px;
 }
 
 .portfolio-list {
+		@include mq(tablet-only) {
+		grid-template-columns:354px 354px;
+		display: grid;
+		grid-gap: 30px;
+	}
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
-    
-    &__photo {
-        max-width: 100%;
-        height: auto;
-    }
-}
 
+	&__photo {
+		@include mq(mobile-only) {
+			max-width: 100%;
+			height: auto;
+			width: 450px;
+		}
+		@include mq(tablet-only) {
+		}
+		max-width: 100%;
+		height: auto;
+	}
+}
 
 .photo-thumb {
 	position: relative;
@@ -45,12 +55,12 @@
 .portfolio-list__link {
 	transition: background var(--transition-timing) var(--transition-function),
 		box-shadow var(--transition-timing) var(--transition-function);
-        
-        &:hover,
-        &:focus {
-            background: #ffffff;
-            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-        }
+
+	&:hover,
+	&:focus {
+		background: #ffffff;
+		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+	}
 }
 
 .caption {
