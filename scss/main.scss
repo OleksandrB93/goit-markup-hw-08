@@ -13,6 +13,7 @@
 //components
 
 @import './components/btn';
+@import './components/btn-mobile';
 @import './components/btn-filter';
 @import './components/social';
 @import './components/logo';
@@ -25,6 +26,7 @@
 @import './components/subscribe-form';
 
 //layouts
+@import './layouts/studio/menu-container';
 @import './layouts/studio/header';
 @import './layouts/studio/hero';
 @import './layouts/studio/features';

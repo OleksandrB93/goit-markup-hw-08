@@ -16,28 +16,13 @@
 }
 
 .container {
-	// MOBILE
-	// @media screen and (min-width: 480px) {
-	// 	width: 450px;
-	// }
-
 	@include mq(mobile) {
 		width: 480px;
 	}
 
-	// TABLET
-	// @media screen and (min-width: 768px) {
-	// 	width: 738px;
-	// }
-
 	@include mq(tablet) {
 		width: 768px;
 	}
-
-	// DESKTOP
-	// @media screen and (min-width: 1200px) {
-	// 	width: 1170px;
-	// }
 
 	@include mq(desktop) {
 		width: 1200px;

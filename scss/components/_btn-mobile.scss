@@ -1,0 +1,54 @@
+// .header__mobile-menu {
+//     @include mq(mobile-only) {
+//         display: block;
+// 	}
+
+//     display: none;
+// }
+
+.menu-button {
+	@include mq(mobile-only) {
+		display: inline-flex;
+		margin: 0;
+		padding: 0;
+		border: none;
+		background-color: transparent;
+	}
+
+	display: none;
+}
+
+.menu-button .icon-cross {
+	display: none;
+}
+
+.menu-button.is-open .icon-cross {
+	display: block;
+}
+
+.menu-button.is-open .icon-menu {
+	display: none;
+}
+
+.mobile-nav-list__item {
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+.mobile-menu__item {
+    font-weight: 500;
+font-size: 34px;
+line-height: 40px;
+
+letter-spacing: 0.02em;
+
+color: #2196F3;
+}
+
+.mobile-menu__socials {
+    display: flex;
+}

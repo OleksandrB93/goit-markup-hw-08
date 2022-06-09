@@ -10,6 +10,10 @@ body {
 	background-color: #ffffff;
 }
 
+body.modal-open {
+	overflow: hidden;
+}
+
 .icon {
 	fill: currentColor;
 }
