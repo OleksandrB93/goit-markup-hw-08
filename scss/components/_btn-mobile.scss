@@ -6,8 +6,8 @@
 		border: none;
 		background-color: transparent;
 		cursor: pointer;
+		position: relative;
 	}
-	position: relative;
 	display: none;
 }
 
@@ -28,7 +28,3 @@
 	display: none;
 }
 
-.icon-cross {
-	width: 18px;
-	height: 18px;
-}
