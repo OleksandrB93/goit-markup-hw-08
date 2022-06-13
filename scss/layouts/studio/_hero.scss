@@ -6,23 +6,17 @@
 	background-position: center top;
 	background-size: cover;
 
-	@include mq(mobile-only) {
-		// max-width: 100%;
-		// height: auto;
-	}
+
 }
 
 .hero-container {
-	@include mq(mobile-only) {
-		padding-top: 118px;
-		padding-bottom: 118px;
-	}
+
 	max-width: 1600px;
 
 	text-align: center;
 	color: var(--title-h1-color);
-	// padding-top: 118px;
-	// padding-bottom: 118px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -32,6 +26,11 @@
 }
 
 .hero-title {
+	@include mq(mobile-only) {
+		font-weight: 900;
+		font-size: 26px;
+		line-height: 1.62;
+	}
 	margin-bottom: 30px;
 
 	font-weight: 900;
