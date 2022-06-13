@@ -1,15 +1,16 @@
 /* section Hero*/
 .hero {
-	@include mq(mobile-only) {
-		max-width: 100%;
-		height: auto;
-		width: 480px;
-	}
 	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-		url("../img/hero/hero-img.jpg");
+	url("../img/hero/hero-img.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 1600px;
+
+	@include mq(mobile-only) {
+		// max-width: 100%;
+		// height: auto;
+		// width: 480px;
+	}
 }
 
 .hero-container {
