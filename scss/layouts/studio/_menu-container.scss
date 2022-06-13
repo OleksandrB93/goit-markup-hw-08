@@ -23,7 +23,18 @@
 	padding-left: 40px;
 }
 
+// .mobile-nav-list {
+	// 	@include mq(mobile-only) {
+	// 	display: block;
+	// 	margin-bottom: auto;
+	// }
+// }
 
+// .mobile-menu__navigation {
+// 				@include mq(mobile-only) {
+// 		margin-bottom: auto;
+// 	}
+// }
 
 .mobile-nav-list__item {
 	margin-bottom: 20px;
@@ -56,9 +67,11 @@
 	margin-bottom: 64px;
 }
 
-.mobile-menu__contacts {
-	margin-top: auto;
-}
+// .mobile-menu__contacts {
+// 			@include mq(mobile-only) {
+// 		margin-bottom: auto;
+// 	}
+// }
 
 .mobile-menu__contacts-tel {
 	font-weight: 500;
@@ -80,7 +93,7 @@
 }
 
 .mobile-menu__socials {
-	margin-top: 300px;
+
 	// margin-top: auto;
 	display: flex;
 }

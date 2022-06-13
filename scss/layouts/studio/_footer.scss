@@ -12,12 +12,7 @@
 	background-color: var(--bcg-color-footer);
 }
 
-.footer-logo {
-	@include mq(not-desktop) {
-		text-align: center;
-		margin-right: 0;
-	}
-}
+
 
 .nav-logo--mobile {
 	@include mq(mobile-only) {

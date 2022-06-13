@@ -1,4 +1,8 @@
 .section {
+	@media screen and (min-width: 320px) and(max-width:767px) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
 	@include mq(mobile) {
 		padding-top: 60px;
 		padding-bottom: 60px;
@@ -15,12 +19,10 @@
 	}
 }
 
-
 .container {
 	padding-right: 15px;
 	padding-left: 15px;
 	margin: 0 auto;
-
 
 	@include mq(mobile) {
 		width: 480px;
@@ -34,10 +36,8 @@
 		width: 1200px;
 	}
 
-
-  @media screen and (min-width:320px) and(max-width:767px)  {
-max-width: 480px;
-margin: 0 auto;
-  }
-
+	@media screen and (min-width: 320px) and(max-width:767px) {
+		max-width: 480px;
+		margin: 0 auto;
+	}
 }
