@@ -1146,8 +1146,6 @@ textarea::placeholder {
 }
 .hero-container {
   max-width: 1600px;
-  padding-top: 200px;
-  padding-bottom: 200px;
   text-align: center;
   color: var(--title-h1-color);
   margin-left: auto;
