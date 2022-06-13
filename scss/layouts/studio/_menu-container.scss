@@ -33,7 +33,6 @@
 	@include mq(mobile-only) {
 		visibility: visible;
 		transform: translateX(0);
-		
 	}
 }
 
@@ -57,16 +56,16 @@
 	color: #212121;
 }
 
-// .mobile-nav-list__link--current {
-// 	color: #2196f3;
-// }
+.mobile-nav-list__link--current {
+	color: #2196f3;
+}
 
-// .mobile-menu__item {
-// 	margin-bottom: 32px;
-// 	&:last-child {
-// 		margin-bottom: 0;
-// 	}
-// }
+.mobile-menu__item {
+	margin-bottom: 32px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
 
 .mobile-menu__contacts {
 	margin-bottom: 64px;

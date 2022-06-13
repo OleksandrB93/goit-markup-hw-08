@@ -13,37 +13,4 @@
 	});
 })();
 
-// (() => {
-// 	const refs = {
-// 		openMenuBtn: document.querySelector("[data-menu-open]"),
-// 		closeMenuBtn: document.querySelector("[data-menu-close]"),
-// 		menu: document.querySelector("[data-menu]"),
-// 	};
 
-// 	refs.openMenuBtn.addEventListener("click", toggleModal);
-// 	refs.closeMenuBtn.addEventListener("click", toggleModal);
-
-
-// 	function toggleModal() {
-// 		refs.menu.classList.toggle("is-open");
-        
-// 	}
-// })();
-
-
-// (() => {
-// 	const refs = {
-// 		menuBtn: document.querySelector("[data-menu-button]"),
-// 		menu: document.querySelector("[data-menu]"),
-// 	};
-
-// 	refs.menuBtn.addEventListener("click", () => {
-// 		const expanded = refs.menuBtn.getAttribute("aria-expanded") === "true" || false;
-// 		refs.menuBtn.setAttribute("aria-expanded", !expanded);
-
-// 		refs.menuBtn.classList.toggle("is-open");
-// 		refs.menu.classList.toggle("is-open");
-
-// 		document.body.classList.toggle("mobile-menu-is-open");
-// 	});
-// })();
