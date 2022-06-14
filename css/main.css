@@ -39,7 +39,7 @@ body {
 }
 @media screen and (max-width: 767.98px) {
   body {
-    padding-top: 60px;
+    padding-top: 49px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
@@ -216,9 +216,7 @@ textarea::placeholder {
 }
 @media screen and (max-width: 767.98px) {
   .menu-button {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+    display: block;
     margin: 0;
     padding: 0;
     border: none;
@@ -372,7 +370,7 @@ textarea::placeholder {
 @media screen and (max-width: 767.98px) {
   .nav-logo {
     margin-right: 0;
-    padding: 16px 0 4px;
+    padding: 16px 16px;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.17;
@@ -407,7 +405,6 @@ textarea::placeholder {
 
 .modal {
   width: calc(100% - 30px);
-  max-height: calc(100vh - 30px);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -602,9 +599,7 @@ textarea::placeholder {
 }
 
 .checkbox-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  text-align: center;
 }
 @media screen and (max-width: 1279.98px) {
   .checkbox-text {
@@ -667,8 +662,6 @@ textarea::placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   cursor: pointer;
@@ -678,6 +671,7 @@ textarea::placeholder {
   color: var(--accent-color-background);
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
+  display: inline;
 }
 
 /* Footer-form */
@@ -867,6 +861,7 @@ textarea::placeholder {
   font-weight: 500;
   font-size: 34px;
   line-height: 1.7;
+  white-space: nowrap;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -934,15 +929,9 @@ textarea::placeholder {
 }
 @media screen and (max-width: 767.98px) {
   .header-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
 }
 

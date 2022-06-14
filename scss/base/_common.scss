@@ -1,6 +1,6 @@
 body {
 	@include mq(mobile-only) {
-		padding-top: 60px;
+		padding-top: 49px;
 	}
 
 	@include mq(tablet-only) {

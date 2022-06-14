@@ -3,8 +3,6 @@
 	align-items: center;
 	justify-content: center;
 	display: flex;
-	font-weight: 400;
-	font-size: 14px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 
@@ -12,7 +10,9 @@
 	color: #757575;
 	
 	&__link {
+
 		color: var(--accent-color-background);
 		text-decoration-line: underline;
+		display: inline;
 	}
 }
