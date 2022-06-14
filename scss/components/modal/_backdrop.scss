@@ -1,5 +1,9 @@
 
 .backdrop {
+		@include mq(not-desktop) {
+padding: 0 15px;
+		
+	}
 	overflow-y: scroll;
 
 	position: fixed;

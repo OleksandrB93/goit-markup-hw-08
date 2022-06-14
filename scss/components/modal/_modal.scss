@@ -1,18 +1,18 @@
 .modal {
 	@include mq(not-desktop) {
-		width: 450px;
+		max-width: 450px;
 	}
 
-		@include mq(desktop) {
+	@include mq(desktop) {
 		width: 528px;
 	}
-
+	width: calc(100% - 30px);
+	max-height: calc(100vh - 30px);
 	position: absolute;
 	top: 50%;
 	left: 50%;
 
 	padding: 40px;
-	// min-width: 528px;
 	border-radius: 4px;
 
 	transform: translate(-50%, -50%) scale(1);

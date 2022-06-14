@@ -406,6 +406,8 @@ textarea::placeholder {
 }
 
 .modal {
+  width: calc(100% - 30px);
+  max-height: calc(100vh - 30px);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -423,7 +425,7 @@ textarea::placeholder {
 }
 @media screen and (max-width: 1279.98px) {
   .modal {
-    width: 450px;
+    max-width: 450px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -444,6 +446,11 @@ textarea::placeholder {
   background: rgba(0, 0, 0, 0.2);
   -webkit-transition: opacity var(--transition-timing) var(--transition-function), visibility var(--transition-timing) var(--transition-function);
   transition: opacity var(--transition-timing) var(--transition-function), visibility var(--transition-timing) var(--transition-function);
+}
+@media screen and (max-width: 1279.98px) {
+  .backdrop {
+    padding: 0 15px;
+  }
 }
 
 .backdrop.is-hidden {
@@ -502,7 +509,7 @@ textarea::placeholder {
 }
 @media screen and (max-width: 1279.98px) {
   .form {
-    width: 370px;
+    width: 100% px;
   }
 }
 
