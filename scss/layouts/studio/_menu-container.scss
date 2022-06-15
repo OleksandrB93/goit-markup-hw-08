@@ -1,10 +1,10 @@
 .menu-container {
 	
 	@include mq(mobile-only) {
+
 		display: flex;
 		flex-direction: column;
 		position: absolute;
-		justify-content: space-around;
 		top: 100%;
 		left: 0;
 		width: 100%;
@@ -17,7 +17,7 @@
 		padding-left: 40px;
 
 
-		overflow-y: scroll;
+
 		visibility: hidden;
 		transform: translateX(-100%);
 		transition: visibility 250ms var(--transition-function);
@@ -26,8 +26,8 @@
 	@include mq(tablet) {
 		display: none;
 	}
-
 }
+
 
 .menu-container.is-open {
 	@include mq(mobile-only) {
@@ -93,6 +93,7 @@
 
 .mobile-menu__socials {
 	display: flex;
+	// flex-wrap: wrap;
 }
 
 .mobile-menu__socials-item {

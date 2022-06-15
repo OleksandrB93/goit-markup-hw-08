@@ -4,7 +4,7 @@ body {
 	}
 
 	@include mq(tablet-only) {
-		padding-top: 120px;
+		padding-top: 87px;
 	}
 	padding-top: 78px;
 
@@ -21,4 +21,10 @@ body.modal-open {
 
 .icon {
 	fill: currentColor;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height:auto  
 }
