@@ -18,15 +18,14 @@
 }
 
 .features-list {
-		@include mq(mobile-only) {
-
+	@include mq(mobile-only) {
+		margin-bottom: 30px;
 	}
 
 	@include mq(tablet-only) {
 		display: grid;
 		grid-template-columns: 354px 354px;
 		grid-gap: 30px;
-		// margin: -15px;
 	}
 
 	@include mq(desktop) {
@@ -36,8 +35,6 @@
 	&__item {
 		@include mq(tablet-only) {
 			width: 354px;
-			// width: calc((100% - 1 * 30px) / 2);
-			// margin: 15px;
 		}
 
 		@include mq(desktop) {
@@ -45,6 +42,9 @@
 		}
 
 		&:last-child {
+			@include mq(mobile-only) {
+				margin-bottom: 0;
+			}
 			@include mq(desktop) {
 				margin-right: 0;
 			}

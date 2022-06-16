@@ -68,8 +68,9 @@
 				margin-bottom: 0;
 			}
 
-			@include mq(tablet-only) {
-			}
+		@include mq(desktop) {
+			margin-right: 0;
+		}
 		}
 	}
 }

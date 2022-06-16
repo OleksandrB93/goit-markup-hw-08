@@ -793,7 +793,7 @@ textarea::placeholder {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #ffffff;
     -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
@@ -1248,6 +1248,11 @@ textarea::placeholder {
   background-color: var(--bgc-features-icon);
 }
 
+@media screen and (max-width: 767.98px) {
+  .features-list {
+    margin-bottom: 30px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
   .features-list {
     display: grid;
@@ -1270,6 +1275,11 @@ textarea::placeholder {
 @media screen and (min-width: 1280px) {
   .features-list__item {
     margin-right: 30px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .features-list__item:last-child {
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1501,6 +1511,12 @@ textarea::placeholder {
     margin-bottom: 0;
   }
 }
+@media screen and (min-width: 1280px) {
+  .team-list__item:last-child {
+    margin-right: 0;
+  }
+}
+
 .person {
   border-top: 30px;
   padding: 30px 32px;
@@ -1647,6 +1663,7 @@ textarea::placeholder {
 @media screen and (max-width: 1279.98px) {
   .footer-group {
     text-align: center;
+    margin-bottom: 60px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1662,12 +1679,6 @@ textarea::placeholder {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--title-h1-color);
-}
-
-@media screen and (max-width: 767.98px) {
-  .footer-group-list__item:last-child {
-    margin-bottom: 60px;
-  }
 }
 
 .footer-group-list__link {
